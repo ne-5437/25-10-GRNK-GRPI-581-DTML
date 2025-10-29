@@ -12,5 +12,10 @@
 - `d004'4_temp_thrsd_sdm1.py`(`img005`) - standard deviation v2 -> opr range(50.49-57.22), warning thr(60.33), alarm thr(59.02) -> !
 - `d004'5_temp_thrsd_sdm2.py`(`img006`) - standard deviation v3 -> opr range(47.13-57.22), warning thr(55.53), alarm thr(59.82)
 
-
-
+#### D4 Reporting and Visualizing Actual Temperature Ranges During Categorized Events
+- `d004'6_temp_report.py` - A tabular report of every unit parameter's opr ranges(min/max), warning & alarm thresholds
+- `d004'7_temp_report_plot.py`(`img007`) - A split bar plot to capture normal, warning & alarm states
+- `d004'8_temp_report_stkplot_max.py`(`img008`) - A stacked plot to capture normal, warning & alarm states
+- `d004'9_temp_report_spltplot_minmax.py`(`img009`) - A split bar plot to capture min/max normal, warning & alarm states
+- `d004_10_temp_report_stkplot_minmax.py`(`img010`) - A stacked plot to capture min/max normal, warning & alarm states
+- `d004_11_temp_plot_517_error.py`(`img011`) - A floating bar plot to capture min/max warning states for 517 Generator D.E. bearing temps
